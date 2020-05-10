@@ -33,9 +33,16 @@ class ees(object):
             mod =sqrt(c.real**2+c.imag**2)
             angle= atan2(c.imag,c.real)/pi*180
             return format(mod,".3f")  +  "∠"+format(angle,".3f") +'°'
-
+        @property  
+        def mod(self):
+            c =self.complex
+            return sqrt(c.real**2+c.imag**2) 
+        @property 
+        def angle(self):
+            c =self.complex
+            return  atan2(c.imag,c.real)/pi*180
             
-                #132
+               
                 
 
 
