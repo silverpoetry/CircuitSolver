@@ -1,10 +1,15 @@
 {
     "python.pythonPath": "C:\\ProgramData\\Anaconda3\\python.exe",
     "background.useDefault": false,
+    // "background.customImages": [
+    //     "file:///C:/Users/weich/Desktop/Pictures/btfg.jpg",
+    //     "file:///C:/Users/weich/Desktop/Pictures/btfg.jpg",
+    //     "file:///C:/Users/weich/Desktop/Pictures/btfg.jpg"
+    // ],
     "background.customImages": [
         "file:///C:/Users/weich/Desktop/Pictures/btfg.jpg",
         "file:///C:/Users/weich/Desktop/Pictures/btfg.jpg",
-        "file:///C:/Users/weich/Desktop/Pictures/btfg.jpg"
+            "file:///C:/Users/weich/Desktop/Pictures/btfg.jpg",
     ],
     "background.useFront": true,
     "background.style": {

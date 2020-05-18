@@ -41,7 +41,22 @@ class ees(object):
         def angle(self):
             c =self.complex
             return  atan2(c.imag,c.real)/pi*180
-            
+
+#解三角形工具组
+def mod(a):
+    return sqrt(a.real**2+a.imag**2)
+
+def cosrule(a,b,c):
+    return (a**2+b**2-c**2)/(2*a*b)
+def tancos(a):
+    return cos(atan(a))
+def cossin(a):
+    return sin(acos(a))
+def sincos(a):
+    return cos(asin(a))
+def costan(a):
+    return tan(acos(a))
+
                
                 
 
